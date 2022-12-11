@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/testStickt.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+      </style>
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <a href="../index.html"><img src="../img/winglogo.png" height="70px" style="cursor: pointer;"> </img></a>
+    <ul id="navbar">
+        <li class="headerNavbarInnerName"><a href="#"><h3>Уроки</h3></a>
+          <ul class="headerUl">
+            <li class="headerUlInner">
+                <div class="submenu-icon html"></div>
+                <a href="./htmlBasics.html" target="_blank">HTML</a>
+            </li>
+            <li class="headerUlInner">
+                <div class="submenu-iconGreen html"></div>
+                <div><a href="./basicsCSS.html" target="_blank">CSS</a></div>
+            </li>
+          </ul>
+        </li>
+        <li class="headerNavbarInnerName"><a href="#"><h3>Theme</h3></a>
+            <ul class="headerUl">
+              <li class="headerUlInner">
+                <input type="radio" name="theme" class="ht" value="white" id="black"><h6>&nbsp;&nbsp;Темная</h6>
+              </li>
+              <li class="headerUlInner">
+                <input type="radio" name="theme" class="th" value="black" id="white"><h6>&nbsp;&nbsp;Белая</h6>
+                <!-- <button id="toggleThemeBtn"></button> -->
+              </li>
+            </ul>
+        </li>
+        <li class="headerNavbarInnerName"><a href="../pages/About.html"><h3>О нас</h3></a></li>
+    </ul>
+</header>
+
+<aside class="sticky">
+  <nav class="sidebar-inner"><h4 class="sidebar-heading">Статьи</h4>
+      <div class="details padding" >
+      <ol>
+        <li data-default-state="open"><a class="toggleHeader" href="" aria-current="page"><strong>Начальное обучение!</strong></a></li>
+        <li class="toggle">
+            <details>
+                <summary>Начало работы с Интернетом</summary>
+                <ol>
+                  <li><a href="./htmlBasics.html">HTML</a></li>
+                  <li><a href="./basicsCSS.html">CSS</a></li>
+                </ol>
+            </details>
+        </li>
+        <li data-default-state=""><a class="toggleHeader" href=""><strong>HTML — Структура Интернета</strong></a></li>
+        <li class="toggle">
+            <details>
+                <summary>Введение в HTML</summary>
+                <ol>
+                  <li><a href="./htmlMainPage.html">Введение в HTML</a></li>
+                </ol>
+            </details>
+      </ol>
+      
+      </div></nav>
+</aside>
+
+<section class="main-content">
+  <article>
+    <div class="CenterContent">
+        <div class="centerContentInner">
+            <h1> Основы CSS </h1>
+            <div class="section-content">
+                <p> <strong> CSS </strong>(каскадные таблицы стилей) — это код, который стилизует веб-содержимое. Основы CSS пошаговые инструкции по тому, что вам нужно для начала работы. Мы ответим на такие вопросы, как: Как сделать текст красным? Как сделать так, чтобы контент отображался в определенном месте в макете (веб-страницы)? Как украсить веб-страницу фоновыми изображениями и цветами?</p>
+
+                <h1>Что такое CSS?</h1>
+
+                <p> Как и HTML, CSS не является языком программирования. Это тоже не язык разметки. CSS — это язык таблиц стилей. CSS — это то, что вы используете для выборочного стилизации HTML-элементов. Например, этот CSS выделяет текст абзаца, устанавливая красный цвет:
+                </p>
+                <pre class="notranslateHuge"><span class="token tag"><span class="token tag pPadding">p</span></span>&nbsp;&nbsp;<span class="token punctuation">{</span><br><span class="token tag"><span class="token tag colorPadding">color</span><span class="token punctuation doubleOu">:&nbsp;</span></span>red<span class="token tag"><span class="token tag"><span class="token punctuation">;</span><br><span class="token punctuation">}</span></pre>
+                <p> Давайте попробуем: вставьте эти три строки CSS в новый файл в ваш текстовый редактор, а затем сохраните файл как <as class="notranslateText">style.css</as> в вашей папке <as class="notranslateText">styles</as>.
+                </p>
+                <p>Но нам всё равно нужно применить CSS к нашему HTML документу. В противном случае, CSS стиль не повлияет на то, как ваш браузер отобразит HTML документ. </p>
+                <h1>Анатомия набора правил CSS</h1>
+                <p>Давайте взглянем на вышеупомянутый CSS немного более подробно:</p>
+                <img class="alignPic" src="../img/css-declaration-small.png">
+                <p>Вся структура называется набором правил (но зачастую для краткости "правило"). Отметим также имена отдельных частей:</p>
+                <p>Селектор (Selector)</p>
+                <p>Имя HTML-элемента в начале набора правил. Он выбирает элемент(ы) для применения стиля (в данном случае, элементы p ). Для стилизации другого элемента, просто измените селектор.</p>
+                <p>Объявление (Declaration)</p>
+                <p>Единственное правило, например color: red; указывает, какие из свойств элемента вы хотите стилизовать.&lt;/p>
+                <p>Свойства (Properties)</p>
+                <p>Способы, которыми вы можете стилизовать определённый HTML-элемент (в данном случае, color является свойством для элементов &lt;p>). В CSS вы выбираете, какие свойства вы хотите затронуть в вашем правиле.</p>
+                <p>Значение свойства (Property value)</p>
+                <p>Справа от свойства, после двоеточия, у нас есть значение свойства, которое выбирает одно из множества возможных признаков для данного свойства (существует множество значений color, помимо red).</p>
+
+              </div>
+        </div>
+    </div>
+  </article>
+</section>
+<footer>
+    <div class="page-footer-grid">
+        <div id="page-footerFlex" class="page-footer-moz">
+          <ul class="footer-moz-list">
+            <li class="footer-moz-item"><a href="https://github.com/Kon10t" class="footer-moz-link"
+                target="_blank" rel="noopener noreferrer">Github</a></li>
+            <li class="footer-moz-item"><a href="../pages/About.html"
+                class="footer-moz-link" target="_blank" rel="noopener noreferrer">About</a></li>
+            <li class="footer-moz-item"><a href="../index.html"
+                class="footer-moz-link" target="_blank" rel="noopener noreferrer">Index</a></li>
+          </ul>
+        </div>
+        <div class="page-footer-legal">
+          <p id="license" class="page-footer-legal-text">Выполнил:
+            <!-- --> <a href="" target="_blank" rel="noopener noreferrer">Нелюбин Матвей Александрович
+            </a>
+            <!-- -->ИСП-6.<br>Copyright © 2022 Neliubin M.A.
+            <!-- --> <a href="/ru/docs/MDN/Writing_guidelines/Attrib_copyright_license">a Creative Commons license</a>.
+          </p>
+        </div>
+      </div>
+</footer>
+
+<script src="../node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script src="../scripts/test.js"></script>
+<script src="../scripts/toggleTheme.js"></script>
+</body>
+</html>

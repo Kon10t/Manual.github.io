@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/testStickt.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+    </style>
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <a href="../index.html"><img src="../img/winglogo.png" height="70px" style="cursor: pointer;"> </img></a>
+    <ul id="navbar">
+        <li class="headerNavbarInnerName"><a href="#">Уроки</a>
+          <ul class="headerUl">
+            <li class="headerUlInner">
+                <div class="submenu-icon html"></div>
+                <a href="./htmlBasics.html" target="_blank">HTML</a>
+            </li>
+            <li class="headerUlInner">
+                <div class="submenu-iconGreen html"></div>
+                <div><a href="./basicsCSS.html" target="_blank">CSS</a></div>
+            </li>
+          </ul>
+        </li>
+        <li class="headerNavbarInnerName"><a href="#">Theme</a>
+          <ul class="headerUl">
+            <li class="headerUlInner">
+              <input type="radio" name="theme" class="ht" value="white" id="black"><h6>&nbsp;&nbsp;Темная</h6>
+            </li>
+            <li class="headerUlInner">
+              <input type="radio" name="theme" class="th" value="black" id="white"><h6>&nbsp;&nbsp;Белая</h6>
+            </li>
+          </ul>
+        </li>
+        <li class="headerNavbarInnerName"><a href="../pages/About.html">О нас</a></li>
+    </ul>
+</header>
+
+<aside class="sticky">
+  <nav class="sidebar-inner"><h4 class="sidebar-heading">Статьи</h4>
+      <div class="details padding" >
+      <ol>
+        <li data-default-state="open"><a class="toggleHeader" href="" aria-current="page"><strong>Начальное обучение!</strong></a></li>
+        <li class="toggle">
+            <details>
+                <summary>Начало работы с Интернетом</summary>
+                <ol>
+                  <li><a href="./htmlBasics.html">HTML</a></li>
+                  <li><a href="./basicsCSS.html">CSS</a></li>
+                </ol>
+            </details>
+        </li>
+        <li data-default-state=""><a class="toggleHeader" href=""><strong>HTML — Структура Интернета</strong></a></li>
+        <li class="toggle">
+            <details>
+                <summary>Введение в HTML</summary>
+                <ol>
+                  <li><a href="./htmlMainPage.html">Введение в HTML</a></li>
+                </ol>
+            </details>
+      </ol>
+      
+      </div></nav>
+</aside>
+
+<section class="main-content">
+  <article>
+    <div class="CenterContent">
+        <div class="centerContentInner">
+            <h1> HTML </h1>
+            <div class="section-content">
+                <p> <strong> HTML </strong> (HyperText Markup Language — «язык гипертекстовой разметки») —
+                    самый
+                    базовый строительный блок Веба. Он определяет содержание и структуру веб-контента.
+                    Другие
+                    технологии, помимо HTML, обычно используются для описания внешнего вида/представления
+                    (CSS)
+                    или функциональности/поведения (JavaScript) веб-страницы. </p>
+
+                <p> Под гипертекстом ("hypertext") понимаются ссылки, которые соединяют веб-страницы друг с
+                    другом либо в пределах одного веб-сайта, либо между веб-сайтами. Ссылки являются
+                    фундаментальным аспектом Веба. Загружая контент в Интернет и связывая его со страницами,
+                    созданными другими людьми, вы становитесь активным участником Всемирной паутины.
+                </p>
+                <p class="noneUnderline">HTML использует разметку ("markup") для отображения текста, изображений и другого
+                    контента в
+                    веб-браузере. HTML-разметка включает в себя специальные "элементы", такие как
+
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;head></code></a>, <a
+                        href="/ru/docs/Web/HTML/Element/head"><code>&lt;title></title></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;body></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;header></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;footer></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;article></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;section></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;p></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;div></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;span></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;img></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;aside></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;audio></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;canvas></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;datalist></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;details></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;embed></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;nav></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;output></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;progress></code></a>,
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;video></code></a> и многие другие.
+                </p>
+                <p class="noneUnderline">HTML-элемент выделяется из прочего текста в документе с помощью "тегов", которые состоят
+                    из
+                    имени элемента окружённого "" и ">". Имя элемента внутри тега не чувствительно к
+                    регистру.
+                    То есть, оно может быть написано в верхнем или нижнем регистре, или смешано. Например,
+                    тег
+                    <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;title></code></a> может быть записан
+                    как <a href="/ru/docs/Web/HTML/Element/head"><code>&lt;Title></code></a>, <a
+                        href="/ru/docs/Web/HTML/Element/head"><code>&lt;TITLE></code></a>, или любым другим
+                    способом.
+                </p>
+
+                <h1>Учебное пособие для начинающих</h1>
+                <a class="linkPadding" href="./htmlBasics.html" target="_blank"><p class="Text">Введение в HTML</p></a>
+                   <p class="leftPadd">  Этот модуль задает основу, заставляя вас привыкнуть к важным концепциям и синтаксису,
+                    таким как применение HTML к тексту, как создавать гиперссылки и как использовать HTML
+                    для структурирования веб-страницы.</p>
+                <a class="linkPadding" href="./basicsCSS.html" target="_blank"><p class="Text" class="noneUnderline">Введение в CSS</p></a>
+                    <p class="leftPadd">  Этот модуль задает основу, заставляя вас привыкнуть к важным концепциям и синтаксису,
+                    таким как применение HTML к тексту, как создавать гиперссылки и как использовать HTML
+                    для структурирования веб-страницы.</p>
+            </div>
+
+        </div>
+
+    </div>
+  </article>
+</section>
+
+<footer>
+  <div class="page-footer-grid">
+      <div id="page-footerFlex" class="page-footer-moz">
+        <ul class="footer-moz-list">
+          <li class="footer-moz-item"><a href="https://github.com/Kon10t" class="footer-moz-link"
+              target="_blank" rel="noopener noreferrer">Github</a></li>
+          <li class="footer-moz-item"><a href="../pages/About.html"
+              class="footer-moz-link" target="_blank" rel="noopener noreferrer">About</a></li>
+          <li class="footer-moz-item"><a href="../index.html"
+              class="footer-moz-link" target="_blank" rel="noopener noreferrer">Index</a></li>
+        </ul>
+      </div>
+      <div class="page-footer-legal">
+        <p id="license" class="page-footer-legal-text">Выполнил:
+          <!-- --> <a href="" target="_blank" rel="noopener noreferrer">Нелюбин Матвей Александрович
+          </a>
+          <!-- -->ИСП-6.<br>Copyright © 2022 Neliubin M.A.
+          <!-- --> <a href="/ru/docs/MDN/Writing_guidelines/Attrib_copyright_license">a Creative Commons license</a>.
+        </p>
+      </div>
+    </div>
+</footer>
+
+<script src="../node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script src="../scripts/test.js"></script>
+<script src="../scripts/toggleTheme.js"></script>
+</body>
+</html>
