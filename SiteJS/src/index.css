@@ -527,6 +527,14 @@ footer {
     width: .2rem;
   }
 
+  .submenu-iconViolet {
+    background-color: #ddbf14;
+    height: 2rem;
+    /* margin-right: .75rem; */
+    position: relative;
+    width: .2rem;
+  }
+
   /* .headerUlInner > input {
     height: 1.8rem;
     width: 1.8rem;
@@ -640,7 +648,7 @@ and (max-device-width : 480px) {
         margin-bottom: 12px;
       }
       header a {
-        padding-right: 0px;
+        padding-right: 90px;
         }
         #navbar {
             margin-left: 0px;

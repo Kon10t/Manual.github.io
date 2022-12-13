@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quiz</title>
+		<link type='text/css' rel='stylesheet' href='../css/quiz.css'/>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/about.css">
+		<style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+        </style>
+	</head>
+	<body>
+        <header>
+            <a href="../index.html"><img src="../img/winglogo.png" height="70px" style="cursor: pointer;"> </img></a>
+            <ul id="navbar">
+                <li class="headerNavbarInnerName"><a href="#">Уроки</a>
+                  <ul class="headerUl">
+                    <li class="headerUlInner">
+                        <div class="submenu-icon html"></div>
+                        <a href="./htmlBasics.html" target="_blank" target="_blank">HTML</a>
+                    </li>
+                    <li class="headerUlInner">
+                        <div class="submenu-iconGreen html"></div>
+                        <div><a href="./basicsCSS.html" target="_blank">CSS</a></div>
+                    </li>
+                    <li class="headerUlInner">
+                        <div class="submenu-iconViolet html"></div>
+                        <div><a href="./basicsJS.html" target="_blank">Java Script</a></div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="headerNavbarInnerName"><a href="#">Theme</a>
+                    <ul class="headerUl">
+                      <li class="headerUlInner">
+                        <input type="radio" name="theme" class="ht" value="white" id="black"><h6>&nbsp;&nbsp;Темная</h6>
+                      </li>
+                      <li class="headerUlInner">
+                        <input type="radio" name="theme" class="th" value="violet" id="white"><h6>&nbsp;&nbsp;Белая</h6>
+                      </li>
+                    </ul>
+                </li>
+                <li class="headerNavbarInnerName"><a href="./About.html">О нас</a></li>
+            </ul>
+        </header>
+        
+        <section class="main-content">
+          <article>
+            <div class="CenterContent">
+                <div class="centerContentInner">
+                    <!-- <h1> Основы HTML </h1> -->
+                    <div class="section-content">
+                      
+                        <h1><strong> Тест по основам HTML </strong></h1>
+
+                        <div class="quiz" id='quiz'>
+                            <div class="quiz-questions" id="questions">
+                                <!-- <div class="quiz-questions-item question">Вопрос 1</div>
+                                <ul class="quiz-questions-item answers">
+                                    <li>
+                                        <label >
+                                            <input type="radio" name="q1">
+                                            Ответ 1
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="radio" name="q1">
+                                            Ответ 2
+                                        </label>
+                                    </li>
+                                </ul> -->
+                            </div>
+                            <div class="quiz-indicator" id="indicator"><as class="notranslateText">1/10</as></div>
+                
+                            <div class="quiz-results" id="results">
+                                <div class="quiz-results-item"> 
+                                    <div class="quiz-results-item question">Вопрос 1</div>
+                                    <ul class="quiz-results-item answers">
+                                        <li>
+                                                Ответ 1
+                                        </li>
+                                        <li>
+                                                Ответ 2
+                                        </li>
+                                    </ul>  
+                                </div>  
+                            </div>
+                            
+                            <div class="quiz-controls">
+                                <button class="btn-next"  id="btn-next" disabled>Далее</button>
+                                <button class="btn-restart"  id="btn-restart">Повторить</button>
+                            </div>
+                            <p class="decoy">Данный язык гипертекстовой разметки (HyperText Markup Language) считается общепринятым. Он оптимально подходит для незатруднительного создания интернет-страниц с различной структурой.</p>
+                        </div>
+
+                    </div>
+        
+                </div>
+          </article>
+        </section>
+        
+        
+        
+        <footer>
+          <div class="page-footer-grid">
+              <div id="page-footerFlex" class="page-footer-moz">
+                <ul class="footer-moz-list">
+                  <li class="footer-moz-item"><a href="https://github.com/Kon10t" class="footer-moz-link"
+                      target="_blank" rel="noopener noreferrer">Github</a></li>
+                  <li class="footer-moz-item"><a href="../pages/About.html"
+                      class="footer-moz-link" target="_blank" rel="noopener noreferrer">About</a></li>
+                  <li class="footer-moz-item"><a href="../index.html"
+                      class="footer-moz-link" target="_blank" rel="noopener noreferrer">Index</a></li>
+                </ul>
+              </div>
+              <div class="page-footer-legal">
+                <p id="license" class="page-footer-legal-text">Выполнил:
+                  <!-- --> <a href="" target="_blank" rel="noopener noreferrer">Нелюбин Матвей Александрович
+                  </a>
+                  <!-- -->ИСП-6.<br>Copyright © 2022 Neliubin M.A.
+                  <!-- --> <a href="/ru/docs/MDN/Writing_guidelines/Attrib_copyright_license">a Creative Commons license</a>.
+                </p>
+              </div>
+            </div>
+        </footer>        
+        
+        <!-- <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script> -->
+		<script type='text/javascript' src='../scripts/quiz.js'></script>
+        <script src="../scripts/toggleTheme.js"></script>
+	</body>
+</html>

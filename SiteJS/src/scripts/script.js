@@ -13,8 +13,6 @@
 //   prevScrollpos = currentScrollPos;
 // }
 
-
-
 // function testFactorial(a) {
 //   let x = 1;
 
