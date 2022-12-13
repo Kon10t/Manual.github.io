@@ -488,6 +488,12 @@ b, strong {
     font-weight: 600px;
   }
 
+.align {
+    margin-left: 280px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
   header {
     display: flex;
     align-content: flex-start;
