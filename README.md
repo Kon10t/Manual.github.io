@@ -1,14 +1,18 @@
 <h1 align="center">Training-Manual Site</h1>
-<h2>Сайт клон MDN</h2>
+<h2 align="center">Сайт клон MDN</h2>
 <h3>Описание</h3>
 <p>Сайт создавался как проект для аттестации, это был мой первый опыт работы с JavaScript на практике, отчего некоторый функционал далек от завершения.</p>
 <p>В будущем я планирую переписать данный сайт используя: React + RTK + TS;
-<p>Основной функционал JavaScript, который я решил разработать:</p>
+<p>Основной функционал на JavaScript, который я решил разработать:</p>
 <ul>
 <li>Тест на проверку знаний</li>
+
 ![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/0acc5230-9849-4bd6-9586-01dc7992ae0a)
+
 <li>Sticky Sidebar</li>
+
 ![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/d7802c21-67b3-4e01-b935-60d5f0612252)
+
 <li>Смена Темы</li>
 ![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/f56bfd70-fb85-4515-a63b-9a31b7f60f78)
 <li></li>
