@@ -16,34 +16,34 @@
   <li style="margin-bottom: 5px;">Тест на проверку знаний</li>
   <br>
 
-  ![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/0acc5230-9849-4bd6-9586-01dc7992ae0a)
+ ![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/34775540-2d5b-450a-816e-acc035ec4135)
 
   <br>
   <li style="margin-bottom: 5px;">Sticky Sidebar</li>
   <br>
   
-  ![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/d7802c21-67b3-4e01-b935-60d5f0612252)
+  ![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/64d3a441-e27d-4ac8-81e5-33246cc17074)
 
   <br>
   <li style="margin-bottom: 5px;">Смена Темы</li>
   <br>
 
-  ![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/f56bfd70-fb85-4515-a63b-9a31b7f60f78)
+  ![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/1004f24d-c5dc-4789-bc64-ca2a98fcc4d4)
 
 </ul>
 
 <h3>Фотографии с сайта</h3>
 
-![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/ef457788-c8cb-4b07-b995-472e26e5a88e)
+![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/0518db40-d8f1-40b8-8d67-984f67f7eab6)
+
 
 <br>
 
-![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/faa78010-8f71-44a8-867a-81ad64182d61)
+![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/9e81d314-9bbe-4b3f-9eb0-e194af8dcddd)
+
 
 <br>
 
-![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/e94910d8-4fca-4016-9077-981ca4da1d54)
+![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/42ed7f0b-cab4-433f-978d-451e4544e4c9)
 
-<br>
 
-![image](https://github.com/Kon10t/Manual.github.io/assets/101184174/645f598a-9966-4e57-b52d-87606a277bec)
